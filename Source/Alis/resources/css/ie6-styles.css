@@ -1,0 +1,25 @@
+.button-white {
+    background: #ffffff;
+    text-align: center;
+    color: #2c96c7;
+    padding: 8px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.1em;
+    position: relative;
+    border: 1px solid #000000;
+    border-radius: none !important;
+    box-shadow: none !important;
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+button-white:hover {
+    background: #3b9ece !important;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.watermark {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/alis-watermark.png', sizingMethod=scale);
+}
